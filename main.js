@@ -279,7 +279,7 @@ chatbotToggler.addEventListener("click", () => document.body.classList.toggle("s
 // Apply the image from the config
 // chatbotToggler.style.backgroundImage = `url(${config.toggleButtonImage})`;
 
-if (config.toggleButtonImage) {
+if (config.chatbotToggler) {
   chatbotToggler.style.backgroundImage = `url(${config.toggleButtonImage})`;
 }
 
